@@ -14,5 +14,5 @@ For the creation of infrastructure, you need to perform the following actions:
 # 5) To connect to the servers, you need to run the following commands:
 ## terraform output -raw tls_private_key > id_rsa
 ## ssh -i id_rsa azureuser@<ip_address_from_console>
-# 6) To delete ininfrastructures you need to run the following command:
+# 6) To delete infrastructures you need to run the following command:
 ## terraform destroy
