@@ -1,7 +1,7 @@
 # diploma
-This project was created to create an infrastructure in the AZURE cloud for new projects based on the Java programming language.
-This project implemented the creation of such infrastructure as: Jenkins server, DEV, QA, Stage, Prod environment.If you do not need any of these environments, you can comment out these blocks in the main.tf file.
-For the creation of infrastructure, you need to perform the following actions:
+### This project was created to create an infrastructure in the AZURE cloud for new projects based on the Java programming language.
+### This project implemented the creation of such infrastructure as: Jenkins server, DEV, QA, Stage, Prod environment.If you do not need any of these environments, you can comment out these blocks in the main.tf file.
+### For the creation of infrastructure, you need to perform the following actions:
 # 1) Have an active AZURE account, if you don't have one, use the [link](https://azure.microsoft.com/en-us/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) to create one
 # 2) Setting up Terraform: If you haven't already done so, set up Terraform using one of the following options:
 ## [Install Terraform on Windows with Bash](https://docs.microsoft.com/en-us/azure/developer/terraform/get-started-windows-bash?tabs=bash)
