@@ -5,7 +5,7 @@ For the creation of infrastructure, you need to perform the following actions:
 # 1) Have an active AZURE account, if you don't have one, use the link to create one https://azure.microsoft.com/en-us/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio
 # 2) Setting up Terraform: If you haven't already done so, set up Terraform using one of the following options:
 ## Install Terraform on Windows with Bash https://docs.microsoft.com/en-us/azure/developer/terraform/get-started-windows-bash?tabs=bash
-## Install Terraform on Windows with Azure PowerShell https://docs.microsoft.com/en-us/azure/developer/terraform/get-started-windows-powershell?tabs=bash
+## [Install Terraform on Windows with Azure PowerShell](https://docs.microsoft.com/en-us/azure/developer/terraform/get-started-windows-powershell?tabs=bash)
 # 3) Clone this repository
 # 4) Run the following commands:
 ## terraform init
