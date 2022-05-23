@@ -17,3 +17,45 @@ variable "password" {
   default       = "SuperSecur!ty@Pa$$word!"
   description   = "Password for access to VM"
 }
+
+variable "jenkins_nsg_rules" {
+    type = list(object({
+        name                       = string
+        priority                   = string
+        direction                  = string
+        access                     = string
+        protocol                   = string
+        source_port_range          = string
+        destination_port_range     = string
+        source_address_prefix      = string
+        destination_address_prefix = string
+    }))
+}
+
+variable "dev_qa_nsg_rules" {
+    type = list(object({
+        name                       = string
+        priority                   = string
+        direction                  = string
+        access                     = string
+        protocol                   = string
+        source_port_range          = string
+        destination_port_range     = string
+        source_address_prefix      = string
+        destination_address_prefix = string
+    }))
+}
+
+variable "stage_prod_nsg_rules" {
+    type = list(object({
+        name                       = string
+        priority                   = string
+        direction                  = string
+        access                     = string
+        protocol                   = string
+        source_port_range          = string
+        destination_port_range     = string
+        source_address_prefix      = string
+        destination_address_prefix = string
+    }))
+}
