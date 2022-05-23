@@ -354,12 +354,6 @@ resource "local_file" "private_key" {
     filename = "id_rsa"
 }
 
-resource "null_resource" "get_jenkins_password" {
-  provisioner "local-exec" {
-    command = "ssh -i id_rsa azureuser@${azurerm_linux_virtual_machine.Jenkins_VM.public_ip_address} sudo cat /var/lib/jenkins/secrets/initialAdminPassword"
-  }
-}
-
 # Create Dev virtual machine
 resource "azurerm_linux_virtual_machine" "Dev_VM" {
   name                  = "Dev"
