@@ -17,7 +17,3 @@ output "STG_IP" {
 output "PROD_IP" {
   value = azurerm_linux_virtual_machine.Prod_VM.public_ip_address
 }
-
-output "null_resource" {
-  value = null_resource.get_jenkins_password
-}
